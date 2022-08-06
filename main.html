@@ -3,17 +3,17 @@
 
 <head>
   <meta charset="utf-8">
-  <title>HINGIN</title>
+  <title>HANGIN</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,200&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="/Users/arnabghosh_3112/Downloads/hackathon/statics/css/styles.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  
+  <link rel="icon" href="/Users/arnabghosh_3112/Desktop/HingIn/images/favicon.ico">
   <script defer src="/Users/arnabghosh_3112/Desktop/Web Dev (Udemy)/TinDog-Start-master/fontawesome/js/all.js"></script>
   <!-- ===== Link Swiper's CSS ===== -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
@@ -28,7 +28,8 @@
   <section id="title">
     <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark ">
-      <a class="navbar-brand">HangIn</a>
+
+      <a class="navbar-brand">HangIn</a><br>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -50,7 +51,7 @@
   </nav>
   <div class="row">
     <div class="col-lg-6">
-      <h1>Where do you want to go ??</h1>
+      <h1>Where do you want FootFall to be analyzed ??</h1>
       <input type="text" class="form-control place" id="exampleFormControlInput1" placeholder="Foodys">
     </div>
     </div>
@@ -60,9 +61,14 @@
 </div>
   </section>
 
+  <section id="anylyzed-dataset">
+    Work on progress
+  </section>
   <!-- SURVEY -->
 
   <section id="feedback">
+
+    <div class="topic-text-feedback">Feedback</div>
     <div class="container">
       <div class="content">
         <div class="left-side">
@@ -116,126 +122,58 @@
 
       <!-- Details -->
       <div class="form-control">
-        <label for="name" id="label-name">
-          Name
+        <label for="preference" id="label-preference">
+          What is your preference in food ?
         </label>
   
         <!-- Input Type Text -->
-        <input type="text"
-          id="name"
-          placeholder="Enter your name" />
-      </div>
-  
-      <div class="form-control">
-        <label for="email" id="label-email">
-          Email
-        </label>
-  
-        <!-- Input Type Email-->
-        <input type="email"
-          id="email"
-          placeholder="Enter your email" />
-      </div>
-  
-      <div class="form-control">
-        <label for="age" id="label-age">
-          Age
-        </label>
-  
-        <!-- Input Type Text -->
-        <input type="text"
-          id="age"
-          placeholder="Enter your age" />
-      </div>
-  
-      <div class="form-control">
-        <label for="role" id="label-role">
-          Which option best describes you?
-        </label>
-        
-        <!-- Dropdown options -->
-        <select name="role" id="role">
-          <option value="student">Student</option>
-          <option value="intern">Intern</option>
-          <option value="professional">
-            Professional
-          </option>
-          <option value="other">Other</option>
-        </select>
-      </div>
-  
-      <div class="form-control">
-        <label>
-          Would you recommend GeeksforGeeks
-          to a friend?
-        </label>
-  
-        <!-- Input Type Radio Button -->
-        <label for="recommed-1">
-          <input type="radio"
-            id="recommed-1"
-            name="recommed">Yes</input>
-        </label>
-        <label for="recommed-2">
-          <input type="radio"
-            id="recommed-2"
-            name="recommed">No</input>
-        </label>
-        <label for="recommed-3">
-          <input type="radio"
-            id="recommed-3"
-            name="recommed">Maybe</input>
-        </label>
-      </div>
-  
-      <div class="form-control">
-        <label>Languages and Frameworks known
-          <small>(Check all that apply)</small>
-        </label>
-        <!-- Input Type Checkbox -->
-        <label for="inp-1">
-          <input type="checkbox"
-            name="inp">C</input></label>
-        <label for="inp-2">
-          <input type="checkbox"
-            name="inp">C++</input></label>
-        <label for="inp-3">
-          <input type="checkbox"
-            name="inp">C#</input></label>
-        <label for="inp-4">
-          <input type="checkbox"
-            name="inp">Java</input></label>
-        <label for="inp-5">
-          <input type="checkbox"
-            name="inp">Python</input></label>
-        <label for="inp-6">
-          <input type="checkbox"
-            name="inp">JavaScript</input></label>
-        <label for="inp-7">
-          <input type="checkbox"
-            name="inp">React</input></label>
-        <label for="inp-7">
-          <input type="checkbox"
-            name="inp">Angular</input></label>
-        <label for="inp-7">
-          <input type="checkbox"
-            name="inp">Django</input></label>
-        <label for="inp-7">
-          <input type="checkbox"
-            name="inp">Spring</input></label>
-      </div>
-  
-      <div class="form-control">
-        <label for="comment">
-          Any comments or suggestions
-        </label>
-  
-        <!-- multi-line text input control -->
         <textarea name="comment" id="comment"
           placeholder="Enter your comment here">
         </textarea>
-      </div>
   
+      <div class="form-control">
+        <label for="restaurant" id="label-restaurant">
+          What time will you like to come to our restaurant ?
+        </label>
+  
+        <!-- Input Type Email-->
+        <textarea name="comment" id="comment"
+          placeholder="Enter your comment here">
+        </textarea>
+  
+      <div class="form-control">
+        <label for="payment">
+          Which mode of payment will you prefer ?
+        </label>
+  
+        <!-- multi-line text input control -->
+        <textarea name="payment" id="payment"
+          placeholder="Enter your comment here">
+        </textarea>
+      </div>
+
+      <div class="form-control">
+        <label for="ambience">
+          What kind of ambience do you prefer ? 
+        </label>
+  
+        <!-- multi-line text input control -->
+        <textarea name="ambience" id="ambience"
+          placeholder="Enter your comment here">
+        </textarea>
+      </div>
+      
+      <div class="form-control">
+        <label for="order">
+          Would you prefer placing order form your phone or at the counter ??
+        </label>
+  
+        <!-- multi-line text input control -->
+        <textarea name="order" id="order"
+          placeholder="Enter your comment here">
+        </textarea>
+      </div>
+
       <!-- Multi-line Text Input Control -->
       <button type="submit" value="submit">
         Submit
